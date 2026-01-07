@@ -1,13 +1,8 @@
-import { HelmetProvider } from "react-helmet-async";
-import Reveal from "./Reveal";
+import Reveal from './Reveal'
 
 function App() {
-  return (
-    <HelmetProvider>
-      <Reveal />
-    </HelmetProvider>
-  );
+  return <Reveal />
 }
 
-export default App;
+export default App
 
