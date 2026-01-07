@@ -16,8 +16,8 @@ import {
   Clock
 } from "lucide-react";
 
-// Presentation slides (19 slides from PowerPoint)
-const presentationSlides = Array.from({ length: 19 }, (_, i) => ({
+// Presentation slides (18 slides from PowerPoint)
+const presentationSlides = Array.from({ length: 18 }, (_, i) => ({
   id: `slide-${i + 1}`,
   src: `/reveal-assets/slides/Slide${i + 1}.JPG`,
 }));
